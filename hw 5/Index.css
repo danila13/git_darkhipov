@@ -1,0 +1,212 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  margin-bottom: 140px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+/* first pie */
+
+div.firstpie {
+  width: 895px;
+  margin: 50px auto;
+  margin-bottom: 150px;
+  padding: 50px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  background-color: rgba(45, 174, 216, 0.235);
+  border: 3px dashed rgba(15, 50, 62, 0.406);
+  border-top: solid rgba(15, 50, 62, 0.406);
+  border-right: solid rgba(15, 50, 62, 0.406);
+  position: relative;
+}
+
+div.firstpie > p:nth-child(2)::first-letter {
+  font-size: 32px;
+  color: rgba(3, 41, 53, 0.755);
+  font-weight: bold;
+}
+
+div.firstpie h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: rgba(3, 41, 53, 0.755);
+  text-decoration-line: underline;
+}
+
+div.firstpie h3 {
+  color: rgba(3, 41, 53, 0.755);
+}
+
+div.applepie {
+  width: 360px;
+  height: 230px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border: 5px solid rgba(3, 41, 53, 0.755);
+  content: url(charlotte.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -177px;
+  top: -118px;
+}
+
+div.firstpie > ul > li:nth-of-type(2n+2) {
+  color: rgba(3, 41, 53, 0.755);
+  text-decoration: underline dotted;
+}
+
+div.firstpie > ol > li:nth-of-type(2n+2) {
+  color: rgba(3, 41, 53, 0.755);
+  text-decoration: underline dotted;
+}
+
+div.firstpie > ol + p {
+  margin-bottom: 0;
+  font-style: italic;
+  text-align: center;
+  text-decoration: overline;
+}
+
+/*  */
+
+/* second pie */
+
+div.secondpie {
+  width: 895px;
+  margin: 50px auto;
+  margin-bottom: 150px;
+  padding: 50px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  background-color: rgba(169, 169, 169, 0.18);
+  border: 3px dashed rgba(58, 58, 58, 0.762);
+  border-top: solid rgba(58, 58, 58, 0.762);
+  border-right: solid rgba(58, 58, 58, 0.762);
+  position: relative;
+}
+
+div.secondpie > p:nth-child(2)::first-letter {
+  font-size: 32px;
+  color: rgba(58, 58, 58, 0.762);
+  font-weight: bold;
+}
+
+div.secondpie h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: rgba(58, 58, 58, 0.762);
+  text-decoration-line: underline;
+}
+
+div.secondpie h3 {
+  color: rgba(58, 58, 58, 0.762);
+}
+
+div.gingercake {
+  width: 360px;
+  height: 230px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border: 5px solid rgba(58, 58, 58, 0.762);
+  content: url(tiramisu.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -177px;
+  top: -118px;
+}
+
+div.secondpie > ul > li:nth-of-type(3n+1) {
+  color: rgba(58, 58, 58, 0.762);
+  text-decoration: underline dashed;
+}
+
+div.secondpie > ol > li:nth-of-type(3n+1) {
+  color: rgba(58, 58, 58, 0.762);
+  text-decoration: underline dashed;
+}
+
+div.secondpie > ol + p {
+  margin-bottom: 0px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: overline;
+}
+
+/*  */
+
+/* third container */
+
+div.thirdpie {
+  width: 895px;
+  margin: 50px auto;
+  margin-bottom: 150px;
+  padding: 50px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  background-color: rgba(143, 188, 143, 0.618);
+  border: 3px dashed rgba(3, 41, 53, 0.755);
+  border-top: solid rgba(3, 41, 53, 0.755);
+  border-right: solid rgba(3, 41, 53, 0.755);
+  position: relative;
+}
+
+div.thirdpie > p:nth-child(2)::first-letter {
+  font-size: 32px;
+  color: rgba(34, 74, 34, 0.831);
+  font-weight: bold;
+}
+
+div.thirdpie h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: rgba(34, 74, 34, 0.831);
+  text-decoration-line: underline;
+}
+
+div.thirdpie h3 {
+  color: rgba(34, 74, 34, 0.831);
+}
+
+div.tiramisu {
+  width: 360px;
+  height: 230px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border: 5px solid rgba(34, 74, 34, 0.831);;
+  content: url(tiramisu.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -177px;
+  top: -118px;
+}
+
+p:nth-child(2)::first-letter {
+  font-size: 200%;
+  color: rgba(34, 74, 34, 0.831);
+  font-weight: bold;
+}
+
+div.thirdpie > ul > li:nth-of-type(3n+3) {
+  color: rgba(34, 74, 34, 0.831);
+  text-decoration: underline wavy;
+}
+
+div.thirdpie > ol > li:nth-of-type(3n+3) {
+  color: rgba(34, 74, 34, 0.831);
+  text-decoration: underline wavy;
+}
+
+div.thirdpie > ol + p {
+  margin-bottom: 0px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: overline;
+}
