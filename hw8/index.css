@@ -51,7 +51,7 @@
   list-style: none;
 }
 
-.list_item {
+.btn {
   background-color: rgb(119, 201, 153);
   border: none;
   color: rgb(255, 255, 255);
@@ -62,7 +62,7 @@
   text-decoration: none;
 }
 
-.list_item:hover {
+.btn:hover {
   background-color: rgb(218, 165, 32);
   color: rgb(0, 0, 0);
   font-size: 34px;
